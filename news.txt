@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Bůh je dobrý.",
+    "summary": "A i bude! Žalm 100:5",
+    "image": null,
+    "size": "small",
+    "category": "Boží vlastnost"
+  },
+  {
+    "id": 2,
+    "title": "Stále platí Boží pozvání k navrácení se k Bohu.",
+    "summary": "Židům 3:13-15",
+    "image": "./assets/img_help.jpg",
+    "size": "medium",
+    "category": "Akční krok"
+  },
+  {
+    "id": 3,
+    "title": "Ježíš právě teď sedí na nebeském trůnu!",
+    "summary": "(po Boží pravici), Židům 10:12",
+    "image": null,
+    "size": "small",
+    "category": "Aktuální dění"
+  },
+  {
+    "id": 4,
+    "title": "On (Bůh) ti setře každou slzu z očí!",
+    "summary": "Zjevení 21:4",
+    "image": null,
+    "size": "medium",
+    "category": "Povzbuzení"
+  },
+  {
+    "id": 5,
+    "title": "Nejvyšší soud vložil autoritu nad nepřítelem zpět do rukou člověka!",
+    "summary": "Marek 16:17-18",
+    "image": "./assets/img_authority.jpg",
+    "size": "large",
+    "category": "Aktuální dění"
+  },
+  {
+    "id": 6,
+    "title": "Největší dluh v historii již splacen!",
+    "summary": "1. Koloským 2,13–14",
+    "image": "./assets/img_paid_off.jpg",
+    "size": "small",
+    "category": "Aktuální dění"
+  },
+  {
+    "id": 7,
+    "title": "ZA OPONOU: Stvořitel světa si ke spolupráci na jeho dokonalém díle používá nedokonalé lidi!",
+    "summary": "2. Korintským 12:9",
+    "image": "./assets/img_imperfect.jpg",
+    "size": "medium",
+    "category": "Povzbuzení"
+  },
+  {
+    "id": 8,
+    "title": "AKTUÁLNĚ: Dnes se můžeš setkat s Bohem!",
+    "summary": "Matouš 28:20; Zjevení 3:20",
+    "image": "./assets/img_worship.jpg",
+    "size": "small",
+    "category": "Akční krok"
+  },
+  {
+    "id": 9,
+    "title": "Králů král dává tomu kdo ho prosí!",
+    "summary": "Matouš 7:7-8",
+    "image": null,
+    "size": "medium",
+    "category": "Akční krok"
+  },
+  {
+    "id": 10,
+    "title": "Seznam věcí, které nás mohou oddělit od Boží lásky: Nic, nic a nic!",
+    "summary": "Římanům 8:38-39",
+    "image": "./assets/img_nothing.jpg",
+    "size": "small",
+    "category": "Povzbuzení"
+  }
+]

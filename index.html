@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIZEJ ZPRÁVY | Aktuální Křesťanský Magazín</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- SEO & Open Graph -->
+    <meta name="description"
+        content="SIZEJ ZPRÁVY - Moderní křesťanský magazín s aktuálními informacemi pro dnešní den.">
+    <meta property="og:title" content="SIZEJ ZPRÁVY | Aktuální Křesťanský Magazín">
+    <meta property="og:description" content="Zprávy, které jsou aktuální! Sledujte novinky ze světa víry.">
+    <meta property="og:image" content="https://zpravy.sizej.eu/assets/img_help.jpg">
+    <meta property="og:url" content="https://zpravy.sizej.eu">
+    <meta property="og:type" content="website">
+</head>
+
+<body>
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="brand">
+                    <h1 class="logo">SIZEJ ZPRÁVY</h1>
+                    <p class="tagline">Zprávy, které jsou aktuální!</p>
+                </div>
+                <div class="info-bar">
+                    <div class="date-info">
+                        <span id="current-date">Načítám datum...</span>
+                    </div>
+                    <div class="name-day">
+                        Nenech si tyto zprávy pro sebe! Dnes je potřebuje slyšet <span
+                            id="name-day-name">Načítám...</span>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <nav class="filter-bar" id="category-filter">
+            <button class="filter-btn active" data-category="all">Vše</button>
+            <!-- Categories will be injected here -->
+        </nav>
+        <div id="news-grid" class="bento-grid">
+            <!-- News items will be injected here -->
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 SIZEJ ZPRÁVY. Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal-overlay">
+        <div class="modal-content">
+            <h2 class="modal-text">Amen?</h2>
+            <button id="close-modal" class="btn-primary">Amen!</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
