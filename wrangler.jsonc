@@ -3,6 +3,10 @@
   "name": "christian-magazine",
   "compatibility_date": "2024-05-09",
   "pages_build_output_dir": "./",
+  "assets": {
+    "directory": "./",
+    "binding": "ASSETS"
+  },
   "workers_dev": true,
   "routes": [
     {
